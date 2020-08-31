@@ -1,5 +1,5 @@
 fn main() {
-    let x = 100;
+    let x = String::from("Hello");
     let y = x;
 
     println!("x is {}", x);
