@@ -1,7 +1,11 @@
 fn main() {
     let x = String::from("Hello");
-    let y = x;
+    let len = string_length(x);
+    println!("len is {}", len);
+    println!("x is {}", x); // コンパイルエラー！
+}
 
-    println!("x is {}", x);
-    println!("y is {}", y);
+fn string_length(s: String) -> usize {
+    let length = s.len();
+    length
 }
