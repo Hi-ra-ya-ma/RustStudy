@@ -11,9 +11,12 @@ fn string_length(s: &String) -> usize {
 }
 
 fn main2() {
-    let mut x = 100;
+    let x = 100;
     println!("x is {}", x);
 
-    x = 200;
+    let x = 200;
+    println!("x is {}", x);
+
+    let x = "Hoge";
     println!("x is {}", x);
 }
